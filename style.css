@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+   
+}
+.calculator{
+  /* border: 1px solid rgb(214, 214, 214); */
+  width: 600px;
+  height:auto;
+  margin: auto;
+  margin-top: 35px;
+  display: block;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  background: rgb(238, 238, 238);
+
+}
+
+.calculator input{
+    width: 89%;
+    border: 1px solid rgb(224, 224, 224);
+    height: 76px;
+    /* margin-top: auto; */
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 20%);
+    box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 20%);
+    text-align: right;
+    font-size: 3em;
+    padding-top: 0;
+    margin: 7px 12px;
+    padding-right: 20px;
+
+}
+/* .buttons{
+
+} */
+.operators button{
+    display: inline-block;
+    border: 0px solid grey;
+    width: 120px;
+    border-radius: 6px;
+    margin: 11px;
+    padding: 17px 18px 14px;
+    font-size: 3em;
+    text-align: center;
+    background: rgb(216, 216, 216);
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.operators button:hover{
+    background: rgb(235, 235, 235);
+    cursor: pointer;
+    transform: scale(0.99);
+    transition: all 0.3s ease-in;
+}
+.leftSide{
+    display: inline-block;
+}
+
+.leftSide .numbers button{
+    display: inline-block;
+    border: 0px solid grey;
+    width: 120px;
+    border-radius: 6px;
+    margin: 11px;
+    padding: 17px 18px 14px;
+    font-size: 2.2em;
+    text-align: center;
+    background: rgb(246 246 246);
+    color: #4b4b4b;
+    font-weight: 100;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    
+    
+}
+.leftSide .numbers button:hover{
+    background: rgb(252, 251, 251);
+    cursor: pointer;
+    transform: scale(0.99);
+    transition: all 0.3s ease-in;
+}
+.equal{
+    width: 120px;
+    border: 0px solid #acacb0;
+    display: inline-block;
+    height: 397px;
+    position: absolute;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 0px;
+    margin: -408px 450px;
+    border-radius: 4px;
+    background: rgb(55, 120, 250);
+    color: #fff;
+    
+    -webkit-box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 20%);
+    box-shadow: 0px 1px 4px 0px rgb(0 0 0 / 20%);
+    /* transition: all 0.6s ease-in; */
+    cursor: pointer;
+}
+
+.equal:hover{
+    background: rgb(42, 42, 250);
+    transition: all 0.3s ease-in;
+    /* transform: scale(0.99); */
+}
+
